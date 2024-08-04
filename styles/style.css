@@ -1,0 +1,293 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+
+    font-family: 'Manrope', courier, monospace;
+    margin-left: 0 auto;
+}
+
+h1 {
+    margin-top: 70px;
+
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 400;
+    color: #121212;
+}
+
+h2 {
+    width: 60px;
+    height: 25px;
+    
+    font-size: 18px;
+    line-height: 24.59px;
+    font-weight: 400;
+    color: #121212;
+}
+
+.nav-section {
+    margin-top: 32.82px;
+}
+
+.nav-logo-link {
+    display: inline-block;
+
+    margin-right: 532px;
+}
+
+.nav {
+    display: inline-block;
+    
+    vertical-align: top;
+    
+}
+
+.nav-link {
+    display: inline-block;
+
+    margin-right: 60px;
+    
+    height: 24.59px;
+
+    font-size: 18px;
+    line-height: 24.59px;
+    text-align: center;
+    text-decoration: none;
+    color: #121212;
+}
+
+.nav-link:hover,
+.nav-link-active {
+    opacity: 50%;
+    text-decoration: underline 1px;
+    text-underline-offset: 8px;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+}
+
+.intro {
+    position: relative;
+
+    height: 500px;
+    margin-top: 30px;
+    
+    background-image: url(../resources/img/chair-intro.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.intro-text-wrapper {
+    position: absolute;
+
+    width: 437px;
+    height: 81px;
+
+    line-height: 27.3px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+
+    left: 40px;
+    bottom: 40px;
+        
+    color: #FFFFFF;
+       
+}
+
+.about {
+    
+    height: 518px;
+    margin-top: 150px;
+
+}
+
+.about-text-wrapper {
+    width: 1048px;
+    height: 366px;
+    margin-top: 30px;
+
+    font-size: 45px;
+    line-height: 61.47px;
+}
+
+.btn {
+    display: block;
+
+    width: 255px;
+    height: 67px;
+    margin-top: 30px;
+    
+    font-size: 20px;
+    line-height: 67px;
+    text-align: center;
+    text-decoration: none;
+
+    border: 1px solid #AD1818;
+    border-radius:5px;
+
+    color: #FFFFFF;
+    background-color: #AD1818;
+}
+
+.projects {
+    margin-top: 150px;
+
+    
+}
+
+.projects img {
+    width: 100%;
+}
+
+.projects-title {
+    margin-top: 15px;
+    
+    font-size: 30px;
+    line-height: 40.98px;
+}
+
+.projects-more-btn {
+    display: inline-block;
+
+    margin-top: 15px;
+
+    font-size: 20px;
+    line-height: 27.32px;
+
+    text-decoration: none;
+    color: #AD1818;
+}
+
+.projects-allprojects-btn {
+    display: block;
+
+    margin-top: 90px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    
+    width: 100%;
+        
+    font-size: 30px;
+    line-height: 40.98px;
+    text-align: center;
+    text-decoration: none;
+
+    border: 1px solid #AD1818;
+    border-radius:5px;
+
+    color: #AD1818;
+    background-color: #FFFFFF;
+}
+
+.projects-allprojects-btn:hover {
+    color: #FFFFFF;
+    background-color: #AD1818;
+}
+
+.section-service {
+    min-width: 1150px;
+    
+    background-color: #121212;
+    color: #FFFFFF;
+}
+
+.section-service h2 {
+    padding-top: 151px;
+
+    color: #FFFFFF;
+}
+
+.container-service {
+    margin: 0 auto;
+    
+    width: 1150px;
+    
+    box-sizing: border-box;
+}
+
+.example {
+    position: relative;
+
+    height: 717px;
+    
+    background-image: url(/resources/img/example.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.example-container {
+    position: absolute;
+
+    left: 125px;
+    bottom: 60px;
+
+    width: 443px;
+    height: 82px;
+
+    font-size: 30px;
+    line-height: 40.98px;
+    color: #FFFFFF;
+}
+
+.contacts-title {
+    position: relative;
+
+    margin-top: 186px;
+
+    font-size: 18px;
+    line-height: 24.59px;
+    color: #121212;
+}
+
+.contacts-title:after {
+    content: '';
+    position: absolute;
+    display: block;
+    
+    left: -4px;
+    bottom: 30px;
+
+    width: 24px;
+    height: 24px;
+
+    background-image: url(/resources/img/iphone-icon.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contacts-number {
+    display: block;
+    
+    margin-top: 32px;
+
+    font-size: 60px;
+    line-height: 60px;
+
+    text-decoration: none;
+    color: #121212;
+}
+
+.contacts-email {
+    display: block;
+
+    margin-top: 30px;
+
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    opacity: 50%;
+    text-decoration: underline 2px;
+    text-underline-offset: 15px;
+    
+}
+
