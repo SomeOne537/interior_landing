@@ -3,10 +3,12 @@ html {
 }
 
 body {
+    margin: 0 auto;
+
     width: 100%;
 
     font-family: 'Manrope', courier, monospace;
-    margin-left: 0 auto;
+    letter-spacing: -0.03em;
 }
 
 h1 {
@@ -35,7 +37,7 @@ h2 {
 .nav-logo-link {
     display: inline-block;
 
-    margin-right: 532px;
+    margin-right: 558px;
 }
 
 .nav {
@@ -48,7 +50,7 @@ h2 {
 .nav-link {
     display: inline-block;
 
-    margin-right: 60px;
+    margin-right: 56px;
     
     height: 24.59px;
 
@@ -104,17 +106,16 @@ h2 {
 }
 
 .about {
-    
     height: 518px;
     margin-top: 150px;
-
 }
 
 .about-text-wrapper {
     width: 1048px;
     height: 366px;
     margin-top: 30px;
-
+    box-sizing: border-box;
+    
     font-size: 45px;
     line-height: 61.47px;
 }
@@ -146,6 +147,9 @@ h2 {
 
 .projects img {
     width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: bottom;
 }
 
 .projects-title {
@@ -291,3 +295,49 @@ h2 {
     
 }
 
+.section-footer {
+    margin-top: 150px;
+    min-width: 1150px;
+    
+    background-color: #121212;
+    color: #FFFFFF;
+}
+
+.footer__text-wrapper {
+    margin: 0 auto;
+    
+    width: 450px;
+}
+
+.footer__text {
+    display: inline-block;
+    box-sizing: border-box;
+    
+    margin-top: 60px;
+    margin-right: 52px;
+
+    font-size: 18px;
+    line-height: 24.59px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer__text:hover {
+    opacity: 50%;
+    text-decoration: underline 1px;
+    text-underline-offset: 8px;
+}
+
+.footer__text:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.watermark {
+    margin-top: 87px;
+    padding-bottom: 30px;
+
+    text-align: center;
+    opacity: 50%;
+    font-size: 20px;
+    line-height: 27.32px;
+}
